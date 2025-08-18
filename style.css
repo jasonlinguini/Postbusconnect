@@ -1,0 +1,36 @@
+:root {
+    --main-bg-color: #ff5733; /* couleur de fond principale */
+    --main-text-color: #ffffff; /* couleur du texte */
+    --link-color: #33c1ff; /* couleur des liens */
+}
+
+body {
+    background-color: var(--main-bg-color);
+    color: var(--main-text-color);
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: var(--link-color);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #ffcc00; /* couleur des liens au survol */
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--link-color);
+    color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #ff5733; /* changement de couleur au survol */
+}
